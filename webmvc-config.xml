@@ -1,0 +1,7 @@
+<mvc:interceptors>
+    <mvc:interceptor>
+        <mvc:mapping path="/**"/>
+        <bean class="com.yourcompany.yourapp.util.PagePopulationInterceptor" />
+    </mvc:interceptor>
+    <!-- other interceptors (locale, theme and so on) -->
+</mvc:interceptors>
